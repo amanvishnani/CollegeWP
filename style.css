@@ -779,7 +779,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 
 .header-menu li:hover a,
-.header-menu li.current a
+.header-menu li.current-menu-item a
 {
     text-decoration: none;
     color: #fff !important;
@@ -824,7 +824,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 
 #navigation li:hover a:after,
-#navigation li.current a:after
+#navigation li.current-menu-item a:after
 {
     left: 0;
     margin-left: 0;
@@ -902,7 +902,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 
 #navigation li li:hover a,
-#navigation li li.current a
+#navigation li li.current-menu-item a
 {
     background-color: rgba(255, 255, 255, 0.15);
 }
@@ -974,9 +974,9 @@ only screen and (min-device-pixel-ratio: 1.5) {
     transition: background-color 300ms ease-in-out;
 }
 
-.content-slider .slides-pagination a.current { cursor: default; }
+.content-slider .slides-pagination a.current-menu-item { cursor: default; }
 
-.content-slider .slides-pagination a.current,
+.content-slider .slides-pagination a.current-menu-item,
 .content-slider .slides-pagination a:hover
 {
     background-color: #000;
@@ -1628,7 +1628,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 .info-form textarea
 {
     color: rgba(255,255,255,0.5);
-    border-color: currentColor;
+    border-color: current-menu-itemColor;
     margin-bottom: 15px;
 }
 
@@ -1664,7 +1664,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 .info-form button[type="submit"]:hover
 {
     color: rgba(255,255,255,0.5);
-    border-color: CurrentColor;
+    border-color: current-menu-itemColor;
     background-color: transparent;
 }
 
@@ -2095,7 +2095,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 #mobile-navigation li:first-child { margin-top: 0; }
 
 #mobile-navigation li:hover a:after,
-#mobile-navigation li.current a:after
+#mobile-navigation li.current-menu-item a:after
 {
     left: 0;
     margin-left: 0;
@@ -2125,7 +2125,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 #mobile-navigation .dropdown a:after { content: none; }
 
 #mobile-navigation .dropdown li:hover a,
-#mobile-navigation .dropdown li.current a
+#mobile-navigation .dropdown li.current-menu-item a
 {
     color: #fff;
 }
@@ -2165,7 +2165,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
 }
 
 #mobile-submenu li:hover a,
-#mobile-submenu li.current a
+#mobile-submenu li.current-menu-item a
 {
     text-decoration: none;
     color: #fff !important;

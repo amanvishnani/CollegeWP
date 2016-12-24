@@ -56,7 +56,7 @@
             <div class="col-xs-12 col-md-6">
                 <div class="header-item bg-0">
                     <div class="line">
-                        <a href="index_2.html" id="header-logo"  class="site-logo">University</a>
+                        <a href="index_2.html" id="header-logo"   class="site-logo">University</a>
 
                         <a href="#" class="custom-btn colored">Apply to University</a>
                     </div>
@@ -79,57 +79,13 @@
 
                     <nav id="navigation" class="header-menu">
                         <ul>
-                            <li>
-                                <a href="faculties_1.html">Faculties</a>
-
-                                <div class="dropdown">
-                                    <ul class="bg-7">
-                                        <li><a href="faculties_1.html">Faculties 1</a></li>
-                                        <li><a href="faculties_2.html">Faculties 2</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-
-                            <li>
-                                <a href="academics.html">Academics</a>
-                            </li>
-
-                            <li>
-                                <a href="courses.html">Courses</a>
-
-                                <div class="dropdown">
-                                    <ul class="bg-7">
-                                        <li><a href="courses.html">Courses</a></li>
-                                        <li><a href="courses_details.html">Courses Details</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-
-                            <li>
-                                <a href="about.html">Pages</a>
-
-                                <div class="dropdown">
-                                    <ul class="bg-7">
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="index_2.html">Home 2</a></li>
-                                        <li><a href="login_2.html">Login 2</a></li>
-                                        <li><a href="typography.html">Typography</a></li>
-                                    </ul>
-                                </div>
-                            </li>
-
-                            <li>
-                                <a href="contact.html">Contact</a>
-                            </li>
+                            <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
                         </ul>
                     </nav>
 
                     <nav id="submenu" class="header-menu bg-2">
                         <ul>
-                            <li><a href="campus_locations.html">Campus and locations</a></li>
-                            <li><a href="directory.html">Directory</a></li>
-                            <li><a href="study_advice.html">Study advice</a></li>
-                            <li><a href="login.html"><i class="icon-user"></i>Login</a></li>
+                            <?php wp_nav_menu( array( 'theme_location' => 'sub-menu' ) ); ?>
                         </ul>
                     </nav>
                 </div>
