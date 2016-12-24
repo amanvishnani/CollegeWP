@@ -1,0 +1,2 @@
+# CollegeWP
+WordPress responsive theme.
