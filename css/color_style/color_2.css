@@ -1,0 +1,84 @@
+a,
+.base-text-color,
+.custom-btn.colored,
+.more-link.colored,
+.share-link:hover
+{
+	color: #397fd7;
+}
+
+.base-bg-color,
+.bg-7,
+.custom-btn.colored:hover,
+.video-btn:hover,
+#navigation a:after,
+.content-intro:after,
+.more-link.colored i.arrow:before,
+.more-link.colored i.arrow:after
+{
+	background-color: #397fd7;
+}
+
+.base-border-color,
+.video-btn:hover,
+.custom-btn.colored:hover
+{
+	border-color: #397fd7;
+}
+
+.bg-5
+{
+	background-color: #448deb;
+}
+
+.bg-6
+{
+	background-color: #3d88e5;
+}
+
+.bg-7 .corner:before,
+.bg-7.corner:before,
+[class*=" bg-"] .bg-7.corner:before,
+[class^="bg-"] .bg-7.corner:before
+{
+	border-left-color: #397fd7;
+}
+
+#header-logo
+{
+	background: url(../../images/header_logo_2.png);
+}
+
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5), 
+	only screen and (-moz-min-device-pixel-ratio: 1.5), 
+	only screen and (-o-min-device-pixel-ratio: 3/2), 
+	only screen and (min-device-pixel-ratio: 1.5) {
+
+		#header-logo
+		{
+			background: url(../../images/header_logo_2%402x.png);
+			background-size: 225px 60px;
+		}
+	}
+
+.content-slider .description
+{
+	background-color: rgba(57, 127, 215, 0.4);
+}
+
+.block-with-date .description
+{
+	background-color: rgba(57, 127, 215, 0.15);
+}
+
+@media only screen and (max-width:991px) {
+
+	.col-md-6 > .bg-7 .corner:before,
+	.col-md-6 > .bg-7.corner:before,
+	.col-md-6 > [class*=" bg-"] .bg-7.corner:before,
+	.col-md-6 > [class^="bg-"] .bg-7.corner:before
+	{
+		border-left-color: transparent;
+		border-top-color: #397fd7;
+	}
+}

@@ -1,0 +1,278 @@
+@media only screen and (max-width:1199px) {
+
+	.header-menu { padding-right: 10px; }
+	.header-menu a { padding: 5px 10px; }
+
+	.P30 { padding: 25px 20px; }
+
+	.P30 .info-form .form-message
+	{
+		margin: 25px -20px 0;
+		padding: 10px 20px;
+	}
+
+	.block-courses_details .address { padding-left: 40px; }
+	.block-courses_details .address i { margin-left: -40px; }
+
+	.block-courses_info .text { margin-left: 170px; }
+
+	.col-md-9 .text-block .more-link
+	{
+		position: relative;
+		bottom: auto;
+		margin-top: 10px;
+	}
+
+	.col-md-6 .block-courses.block-with-date .date .number { font-size: 160px; }
+	.col-md-6 .block-courses.block-with-date .date .number.second { height: 100px; }
+	.col-md-6 .block-courses .text
+	{
+		line-height: 1.2;
+		font-size: 20px;
+	}
+
+	.col-md-9 > .corner:before,
+	.col-md-6 .block-with-date .col-xs-12 > .corner:before
+	{
+		top: 100%;
+		left: 25px;
+		border-width: 10px 10px 0 10px;
+		border-color: #fff transparent transparent transparent;
+	}
+
+	.col-md-9 > .bg-4 .corner:before,
+	.col-md-9 > .bg-4.corner:before,
+	.col-md-9 > [class*=" bg-"] .bg-4.corner:before,
+	.col-md-9 > [class^="bg-"] .bg-4.corner:before,
+
+	.col-md-6 .block-with-date .col-xs-12 > .bg-4 .corner:before,
+	.col-md-6 .block-with-date .col-xs-12 > .bg-4.corner:before,
+	.col-md-6 .block-with-date .col-xs-12 > [class*=" bg-"] .bg-4.corner:before,
+	.col-md-6 .block-with-date .col-xs-12 > [class^="bg-"] .bg-4.corner:before
+	{
+		border-left-color: transparent;
+		border-top-color: #303030;
+	}
+
+	.col-md-6 .block-with-date .column-description {  min-height: 1px; }
+	.col-md-6 .block-with-date .column-description a.more-link
+	{
+		position: relative;
+		bottom: auto;
+		margin-top: 5px;
+	}
+}
+
+@media only screen and (max-width:991px) {
+
+	.header-menu { padding-right: 15px; }
+	.header-menu a { padding: 5px 15px; }
+
+	.info-item { min-height: 1px; }
+	.info-item .more-link
+	{
+		position: relative;
+		bottom: auto;
+		margin-top: 10px;
+	}
+
+	.text-block .more-link
+	{
+		position: relative;
+		bottom: auto;
+		margin-top: 10px;
+	}
+
+	.col-md-6 > .corner:before,
+	.col-sm-9 > .corner:before
+	{
+		top: 100%;
+		left: 25px;
+		border-width: 10px 10px 0 10px;
+		border-color: #fff transparent transparent transparent;
+	}
+
+	.col-md-6 > .bg-0 .corner:before,
+	.col-md-6 > .bg-0.corner:before,
+	.col-md-6 > [class*=" bg-"] .bg-0.corner:before,
+	.col-md-6 > [class^="bg-"] .bg-0.corner:before
+	{
+		border-left-color: transparent;
+		border-top-color: #fff;
+	}
+
+	.col-md-6 > .bg-7 .corner:before,
+	.col-md-6 > .bg-7.corner:before,
+	.col-md-6 > [class*=" bg-"] .bg-7.corner:before,
+	.col-md-6 > [class^="bg-"] .bg-7.corner:before
+	{
+		border-left-color: transparent;
+		border-top-color: #a55198;
+	}
+}
+
+@media only screen and (max-width:767px) {
+
+	#navigation ul,
+	#submenu
+	{
+		display: none;
+	}
+
+	#menu-open { display: block; }
+
+	.column-description { min-height: 1px; }
+	.column-description a.more-link,
+	.column-description a.stat-link
+	{
+		position: relative;
+		bottom: auto;
+	}
+
+	.col-sm-3 > .corner:before,
+	.col-sm-4 > .corner:before
+	{
+		top: 100%;
+		left: 25px;
+		border-width: 10px 10px 0 10px;
+		border-color: #fff transparent transparent transparent;
+	}
+
+	.col-sm-3 > .bg-2 .corner:before,
+	.col-sm-3 > .bg-2.corner:before,
+	.col-sm-3 > [class*=" bg-"] .bg-2.corner:before,
+	.col-sm-3 > [class^="bg-"] .bg-2.corner:before,
+
+	.col-sm-4 > .bg-2 .corner:before,
+	.col-sm-4 > .bg-2.corner:before,
+	.col-sm-4 > [class*=" bg-"] .bg-2.corner:before,
+	.col-sm-4 > [class^="bg-"] .bg-2.corner:before
+	{
+		border-left-color: transparent;
+		border-top-color: #555;
+	}
+
+	.col-sm-3 > .bg-4 .corner:before,
+	.col-sm-3 > .bg-4.corner:before,
+	.col-sm-3 > [class*=" bg-"] .bg-4.corner:before,
+	.col-sm-3 > [class^="bg-"] .bg-4.corner:before
+	{
+		border-left-color: transparent;
+		border-top-color: #303030;
+	}
+
+	.video-block .video { height: 300px; }
+}
+
+@media only screen and (max-width:650px) {
+
+	#mobile-navigation a { font-size: 30px; }
+}
+
+@media only screen and (max-width:560px) {
+
+	.page-title h2 { width: 100%; }
+	.page-title .share-link { float: none; }
+}
+
+@media only screen and (max-width:500px) {
+
+	.block-courses_info .date
+	{
+		float: none;
+		margin-bottom: 25px;
+	}
+
+	.block-courses_info .text { margin-left: 0; }
+
+	.content-slider .description p { margin-bottom: 10px; }
+	.content-slider .description .title { font-size: 30px; }
+	.content-slider .description .custom-btn { margin-top: 5px; }
+}
+
+@media only screen and (max-width:480px) {
+
+	.block-courses .text { padding-left: 15px; }
+}
+
+@media only screen and (max-width:460px) {
+
+	#header-logo { width: 60px; }
+}
+
+@media only screen and (max-width:450px) {
+
+	.block-with-date img { height: 350px; }
+	.block-with-date .inner { text-align: center; }
+	.block-courses .title { margin-bottom: 10px; }
+	.block-with-date .date
+	{
+		float: none;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.block-courses.block-with-date .date { margin-bottom: 20px; }
+
+	.block-with-date .date .number { font-size: 140px !important; }
+	.block-with-date .date .number.second { height: 87px !important; }
+
+	.block-with-date .date + div
+	{
+		float: none;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 0;
+		padding-top: 0;
+	}
+}
+
+@media only screen and (max-width:400px) {
+
+	#header-logo_2 { width: 60px; }
+
+	#header-slogan
+	{
+		float: none;
+		text-align: left;
+	}
+
+	.social-btn
+	{
+		text-align: left;
+		padding-top: 15px;
+	}
+
+	#mobile-navigation a
+	{
+		font-size: 25px;
+		padding: 5px 0;
+	}
+
+	#mobile-navigation a:after { height: 2px; }
+
+	#mobile-navigation .dropdown ul { padding: 10px 0 5px; }
+
+	#mobile-submenu a { padding: 5px 10px; }
+
+	h1, .h1 { font-size: 28px; }
+
+	form .remeber > span
+	{
+		float: none;
+		display: block;
+		margin-top: 15px;
+	}
+
+	.content-slider .description { padding-bottom: 10px; }
+	.content-slider .description .title { font-size: 25px; }
+}
+
+@media only screen and (max-width:360px) {
+
+	.team-img-container { width: 100%; }
+
+	.block-with-date .date .number { font-size: 130px !important; }
+	.block-with-date .date .number.second { height: 77px !important; }
+}

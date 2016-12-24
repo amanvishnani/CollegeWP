@@ -1,0 +1,119 @@
+.settings_box
+{
+	position: fixed;
+	top: 150px;
+	width: 231px;
+	z-index: 11;
+	padding: 0 20px 30px 30px;
+	background: #ffffff;
+	border-right: 1px solid #cacaca;
+	border-bottom: 1px solid #cacaca; 
+}
+
+#box-title
+{
+	background-color: #3c3c3c;
+	line-height: 50px;
+	font-size: 18px;
+	color: #ffffff;
+	height: 50px;
+	padding-left: 30px;
+	margin-left: -30px;
+	margin-right: -20px;
+}
+
+#panel_toggler
+{
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: 0px;
+	left: 100%;
+	background-color: #3c3c3c;
+	text-align: center;
+}
+
+#panel_toggler:before,
+#panel_toggler img
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#panel_toggler:before
+{
+	content: "";
+	height: 100%;
+	margin-left: -4px;
+}
+
+#panel_toggler + p
+{
+	line-height: 1.2;
+	font-size: 12px;
+	color: #3c3c3c;
+	margin-top: 24px;
+	margin-right: 20px;
+}
+
+#colors
+{
+	font-size: 0;
+	line-height: 0;
+	letter-spacing: -1px;
+	margin: 20px 0 20px -4px;
+}
+
+#colors a
+{
+	display: inline-block;
+	font-size: 1px;
+	letter-spacing: 0;
+	margin-left: 3px;
+	margin-bottom: 3px;
+	vertical-align: top;
+	line-height: 20px;
+	height: 26px;
+	width: 26px;
+
+	-webkit-transition: -webkit-transform 300ms ease-in-out;
+	-moz-transition: -moz-transform 300ms ease-in-out;
+	-ms-transition: -ms-transform 300ms ease-in-out;
+	-o-transition: -o-transform 300ms ease-in-out;
+	transition: transform 300ms ease-in-out;
+}
+
+#colors a:hover,
+#colors a.current
+{
+/*	-webkit-transform: scale(0.75);
+	-moz-transform: scale(0.75);
+	-ms-transform: scale(0.75);
+	-o-transform: scale(0.75);
+	transform: scale(0.75);*/
+}
+
+#color-1 { background-color: #a4509b; }
+#color-2 { background-color: #397fd7; }
+#color-3 { background-color: #576683; }
+#color-4 { background-color: #3569a5; }
+#color-5 { background-color: #0d7b8c; }
+#color-6 { background-color: #2e9f83; }
+#color-7 { background-color: #69c072; }
+#color-8 { background-color: #4cc5b3; }
+#color-9 { background-color: #95966e; }
+#color-10 { background-color: #ddb462; }
+#color-11 { background-color: #e85656; }
+#color-12 { background-color: #fb3e20; }
+
+#box-text
+{
+	line-height: 1.4;
+	font-size: 12px;
+	color: #939393;
+}
+
+#box-text p:first-child
+{
+	color: #3c3c3c;
+}
