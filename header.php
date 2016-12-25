@@ -56,7 +56,7 @@
             <div class="col-xs-12 col-md-6">
                 <div class="header-item bg-0">
                     <div class="line">
-                        <a href="index_2.html" id="header-logo"   class="site-logo">University</a>
+                        <a href="<?php get_bloginfo('url'); ?>" id="header-logo"   class="site-logo">University</a>
 
                         <a href="#" class="custom-btn colored">Apply to University</a>
                     </div>
