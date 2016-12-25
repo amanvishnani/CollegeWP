@@ -1,3 +1,5 @@
+<?php /* Template Name: Home 1*/ ?>
+
 <?php get_header();?>
 
     <section class="main-content">

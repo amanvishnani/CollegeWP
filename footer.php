@@ -29,7 +29,7 @@
 
                 <p class="el-bottom">
                     P:+1 123 444 5678<br />
-                    E: <a href="mailto:info@yoursite.com">info@yoursite.com</a>
+                    E: <a href="<?php echo get_bloginfo('admin_email');?>"><?php echo get_bloginfo('admin_email');?></a>
                 </p>
             </div>
         </div>
