@@ -109,14 +109,9 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-3 col-md-5 col-lg-4">
                             <div class="column-description P30 bg-2 corner">
-                                <h5>Campus Spotlight</h5>
-
-                                <div class="text">
-                                    <p>
-                                        University rare opulent theatre becoming into property from auction gentlemen. Society symbolizing upper to panoramic enthusiast politically educated.
-                                    </p>
-                                </div>
-
+                                <?php if(is_active_sidebar('sidebar')):?>
+                                    <?php dynamic_sidebar('sidebar');?>
+                                <?php endif; ?>
                                 <a href="#" class="stat-link"><i class="icon-signal"></i><span>Statistics</span></a>
                             </div>
                         </div>

@@ -15,3 +15,19 @@ function register_my_menus() {
     );
 }
 add_action( 'init', 'register_my_menus' );
+
+
+function cwp_init_widgets($id)
+{
+    register_sidebar(
+        array('name' => 'Sidebar',
+            'id'=>'sidebar',
+            'before_widget'=>'<div class="text">',
+            'after_widget' => '</div>',
+            'before_title' => '<h5>',
+            'after_title' => '</h5>'
+        )
+    );
+}
+
+add_action('widgets_init', 'cwp_init_widgets');
